@@ -1,0 +1,11 @@
+h1 Dungeon Crawler
+h2 Reach 3000 XP to win
+#player-info
+#app
+div.message.lose You Died
+div.message.win You completed
+div.controls
+  button.up(onclick='checkKey({keyCode: "38",preventDefault: function(){return true;}})') ↑
+  button.left(onclick='checkKey({keyCode: "37",preventDefault: function(){return true;}})') ←
+  button.down(onclick='checkKey({keyCode: "40",preventDefault: function(){return true;}})') ↓
+  button.right(onclick='checkKey({keyCode: "39",preventDefault: function(){return true;}})') →

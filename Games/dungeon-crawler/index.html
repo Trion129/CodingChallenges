@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Dungeon Crawler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    
+<h1>Dungeon Crawler</h1>
+<h2>Reach 3000 XP to win</h2>
+<div id="player-info"></div>
+<div id="app"></div>
+<div class="message lose">You Died</div>
+<div class="message win">You completed</div>
+<div class="controls">
+  <button onclick="checkKey({keyCode: &quot;38&quot;,preventDefault: function(){return true;}})" class="up">↑</button>
+  <button onclick="checkKey({keyCode: &quot;37&quot;,preventDefault: function(){return true;}})" class="left">←</button>
+  <button onclick="checkKey({keyCode: &quot;40&quot;,preventDefault: function(){return true;}})" class="down">↓</button>
+  <button onclick="checkKey({keyCode: &quot;39&quot;,preventDefault: function(){return true;}})" class="right">→</button>
+</div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
