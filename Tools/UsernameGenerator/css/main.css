@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20vh;
+    text-align: center;
+    background-color: black;
+    background-image: url("https://images.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Frack.2.mshcdn.com%2Fmedia%2FZgkyMDEyLzEyLzA0LzY3L3lvdXJtb213YXN3LmJnRy5qcGcKcAl0aHVtYgk5NTB4NTM0IwplCWpwZw%2F12604c48%2Fb60%2Fyour-mom-was-wrong-you-can-win-a-gaming-scholarship-5ca4393883.jpg&u=http://i.amz.mshcdn.com/Im1fwBNxiV0WCQYwuc6c3WSoevY=/950x534/2012%2F12%2F04%2F67%2Fyourmomwasw.bgG.jpg");
+}
+
+#sentence {
+    border-radius: 5px;
+    padding: 10px;
+    width: 70vw;
+}
+
+#generate {
+    margin-top: 30px;
+    background-color: #5857d4;
+    color: white;
+    border-color: #4974ad;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.generated{
+    margin-top: 30px;
+    font-size: 1.2em;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgb(10, 172, 241);
+    color: white;
+}
