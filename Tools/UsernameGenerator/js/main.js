@@ -3,7 +3,7 @@ $("#generate").on('click',function(){
   
   
   $.getJSON('http://c10963cc.ngrok.io/name/'+ value, function(data){
-    $('.generated').append('<p>'+data.data.name+'</p>');
+    $('.generated').html('<p>'+data.data.name+'</p>');
   });
   
 });
