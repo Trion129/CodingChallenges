@@ -4,6 +4,13 @@ $('.generated').hide();
 
 $("#generate").on('click',function(){
   var value = $('#sentence').val();
-  $('.generated').html('<p>'+lexicon.randomWord("nn",2)+" "+lexicon.randomWord("jjr",2)+'</p>');
+  var syllable = Math.floor(Math.random()*(6)+1);;
+  console.log(syllable);
+  if(value){
+      $('.generated').html('<p>'+lexicon.randomWord("jjr",syllable)+" "+ value +'</p>');
+  }
+  else{
+      $('.generated').html('<p>'+lexicon.randomWord("nn",syllable)+" "+lexicon.randomWord("jjr",syllable)+'</p>');
+  }
   $('.generated').show();
 });
