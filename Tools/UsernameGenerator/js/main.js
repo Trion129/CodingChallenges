@@ -1,12 +1,9 @@
-$(".generated").hide();
+var lexicon = new RiLexicon();
+
+$('.generated').hide();
 
 $("#generate").on('click',function(){
   var value = $('#sentence').val();
-  
-  
-  $.getJSON('http://c10963cc.ngrok.io/name/'+ value, function(data){
-    $('.generated').html('<p>'+data.data.name+'</p>');
-    $(".generated").show();
-  });
-  
+  $('.generated').html('<p>'+lexicon.randomWord("nn",2)+" "+lexicon.randomWord("jjr",2)+'</p>');
+  $('.generated').show();
 });

@@ -28,7 +28,12 @@ body {
     border-radius: 5px;
 }
 
+#generate:focus{
+    background-color: #2b2adb;
+}
+
 .generated{
+  text-transform: capitalize;
     margin-top: 30px;
     font-size: 1.2em;
     margin-left: 20vw;
